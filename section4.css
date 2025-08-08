@@ -1,0 +1,172 @@
+.sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    gap: 50px;
+    padding-top: 50px;
+    background-color: #f9f9ff;
+}
+.sec4 h1 {
+  font-size: 50px;
+  color: #6C63FF;
+}
+.sec4-1-1{
+    font-weight: 600;
+}
+.sec4-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec4-2{
+    display: flex;
+    gap: 30px;
+}
+ .box2 {
+    width: 350px;
+    height: 330px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 15px;
+    background-color: white;
+    color: #333;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.box2:hover {
+    background-color: #e0e7ff;
+    color: #6C63FF;
+    transform: scale(1.03);
+    border-color: #c2c6f0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box2:hover span {
+    color: #6C63FF;
+}
+
+.box2-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.box2-2 > :nth-child(1){
+    font-size: 19.4px;
+    font-weight: 600;
+    align-items: center;
+}
+.box2 .snap img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.box2 .bbms img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box2 .sales img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+@media(max-width:1024px){
+    .sec4{
+        height: 100%;
+    }
+    .sec4-2{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .box2{
+    width: 500px;
+    height: 400px;
+    gap: 30px;
+}
+.box2-2 > :nth-child(1){
+    font-size: 25px;
+    font-weight: 600;
+    align-items: center;
+}
+.box2 .snap img{
+    width: 400px;
+    height: 280px;
+}
+
+.box2 .bbms img{
+    width: 400px;
+    height: 280px;
+}
+
+.box2 .sales img{
+    width: 400px;
+    height: 280px;
+}
+
+}
+
+@media(max-width:767px){
+
+    .box2{
+    width: 250px;
+    height: 250px;
+    gap: 20px;
+}
+.box2-2 > :nth-child(1){
+    font-size: 13px;
+}
+.box2 .snap img{
+    width: 200px;
+    height: 150px;
+   
+}
+
+.box2 .bbms img{
+    width: 200px;
+    height: 150px;
+}
+
+.box2 .sales img{
+    width: 200px;
+    height: 150px;
+}
+
+}
+.btnss button {
+  padding: 10px 28px;
+  background-color: transparent;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #8b7ff2;
+  color: #8b7ff2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnss button:hover {
+  background-color: #8b7ff2;
+  color: white;
+}
+
+.btnss {
+  display: flex;
+  gap: 20px;
+}
+
+.btnss a {
+  text-decoration: none;
+}

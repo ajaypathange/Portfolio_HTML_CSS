@@ -1,0 +1,143 @@
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 100px;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.sec3 h1 {
+  font-size: 50px;
+  color: #6C63FF; /* Royal Purple */
+}
+.sec3-1-1{
+    font-weight: 600;
+}
+.sec3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3-2{
+    display: flex;
+    gap: 20px;
+}
+
+ .box1 {
+    border: 2px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 15px;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease, border-color 0.4s ease;
+}
+.box1:hover {
+    background-color: #7A6FF0;
+    color: white;
+    border-color: #7A6FF0;
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.box1:hover span {
+    color: white;
+}
+
+.box1 > :nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+} 
+.skill-1{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+.skill-1-2{
+    display: flex;
+    flex-direction: column;
+}
+.skill-1-2 > :nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+}
+.skill-1 img{
+    width: 30px;
+}
+
+@media(max-width:1024px){
+    .sec3{
+        padding-top: 0px;
+        padding-bottom: 150px;
+        height: 100%;
+    }
+    .sec3-2{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .box1{
+    width: 500px;
+    gap: 15px;
+}
+.box1 > :nth-child(1){
+    font-size: 24px;
+}
+.skills{
+    gap: 50px;
+} 
+.skill-1{
+    gap: 15px;
+}
+.skill-1-2 > :nth-child(1){
+    font-size: 20px;
+}
+.skill-1 img{
+    width: 30px;
+}
+
+}
+
+@media(max-width:767px){
+    .sec3{
+        padding-bottom: 150px;
+        padding-top: 100px;
+        gap: 100px;
+        margin-bottom: 50px;
+    }
+    .sec3-2{
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 0px;
+    }
+
+    .box1{
+    width: 300px;
+    gap: 15px;
+}
+.box1 > :nth-child(1){
+    font-size: 18px;
+}
+.skills{
+    gap: 25px;
+} 
+.skill-1{
+    gap: 10px;
+}
+.skill-1-2 > :nth-child(1){
+    font-size: 18px;
+}
+.skill-1 img{
+    width: 25px;
+}
+
+}
